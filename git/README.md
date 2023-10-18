@@ -61,7 +61,7 @@
     - 코드 변경분을 한 마디로 설명함
 </br></br></br>
 - 명령어
-    - git commit -m "커밋 메시지를 이곳에 입력"
+    - git commit -m "커밋 메시지를 이곳에 입력"</br>
     - git commit --message "커밋 메시지를 이곳에 입력"
 </br></br></br>
 - 얼마나 자주 커밋을 만들어야 하나</br>
