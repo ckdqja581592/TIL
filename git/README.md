@@ -2,6 +2,29 @@
 
 > 2023년 가을학기에 진행한 GIT 수업 정리
 
+## 2023-11-22
+- reset, revert  명령어 << 커밋 취소하고 싶을때 사용하는 명령어
+  
+- 커밋 내역만 삭제할 때
+    - git reset HEAD~1 : git reset HEAD^
+    - git reset HEAD~2 : git reset HEAD^^
+    - git reset HEAD~3 : git reset HEAD^^^
+        
+- 커밋 + 코드에 수정한 내역까지 지울때
+    - git reset HEAD~? --hard
+  
+- reset : 커밋 자체를 삭제하고 싶을 때 씀
+  
+- revert : 커밋 내용을 되돌리고 싶을 때 씀
+  
+- cherry-pick 로그번호
+  
+- 특정 커밋만 복사해서 가지고 오고 싶을 때
+  
+## 2023-11-08
+- HEAD : 현재 체크아웃한(작업중인) 브랜치의 가장 최신 커밋을 가리키는 포인터
+- 
+
 ## 2023-11-01
 
 - 브랜치 병합  
